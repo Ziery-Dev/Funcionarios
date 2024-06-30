@@ -1,9 +1,9 @@
 package entities;
 
 public class FuncionarioTerc extends Funcionario {
-	private Double valorDespesa; //indica o gasto do funcionario 
+	private Double valorDespesa; 
 
-	//construtor
+	//construtores
 	public FuncionarioTerc() {
 		super();
 	}
@@ -23,7 +23,7 @@ public class FuncionarioTerc extends Funcionario {
 	
 	//metodos
 		@Override
-		//matem o método da super classe somado a 110 porcento da despesa do funcionario
+		//sobreposição da classe pagamento
 		public double pagamento() {
 			return super.pagamento() + (valorDespesa * 110 / 100);
 		}

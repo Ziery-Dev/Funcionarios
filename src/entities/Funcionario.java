@@ -6,6 +6,7 @@ public class Funcionario {
 	private Double valorHora;
 	
 	
+	//construtores
 	public Funcionario() {
 	}
 	
@@ -15,7 +16,9 @@ public class Funcionario {
 		this.horasTrab = horasTrab;
 		this.valorHora = valorHora;
 	}
-
+	
+	
+	//getters e setters
 	public String getNome() {
 		return nome;
 	}
