@@ -1,4 +1,4 @@
-# Projeto Funcionarios
+# Projeto Funcionários
 projeto java simples para por me prática alguns conceitos da programação orientada a objetos, sendo eles: Encapsulamento, herança, polimorfismo, entre outros conceitos mais básicos.
 
 ## Enunciado
